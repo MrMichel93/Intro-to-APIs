@@ -867,6 +867,10 @@ class GitHubRepoAnalyzer:
     
     def __init__(self):
         self.session = requests.Session()
+        # Set timeout for all requests to avoid hanging
+        self.session.request = lambda *args, **kwargs: requests.Session.request(
+            self.session, *args, timeout=kwargs.get('timeout', 10), **kwargs
+        )
     
     def get_repo_info(self, owner, repo):
         """Get repository information"""

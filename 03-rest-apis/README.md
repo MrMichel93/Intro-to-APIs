@@ -118,12 +118,17 @@ Organize related resources hierarchically:
 
 REST maps HTTP methods to **CRUD** operations:
 
-| Operation | HTTP Method | URL Example        | Purpose           |
-|-----------|-------------|--------------------|-------------------|
-| Create    | POST        | POST /users        | Create new user   |
-| Read      | GET         | GET /users/123     | Get user 123      |
-| Update    | PUT/PATCH   | PUT /users/123     | Update user 123   |
-| Delete    | DELETE      | DELETE /users/123  | Delete user 123   |
+| Operation | HTTP Method | URL Example        | Purpose                          |
+|-----------|-------------|--------------------|----------------------------------|
+| Create    | POST        | POST /users        | Create new user                  |
+| Read      | GET         | GET /users/123     | Get user 123                     |
+| Update    | PUT         | PUT /users/123     | Replace entire user 123          |
+| Update    | PATCH       | PATCH /users/123   | Update specific fields of user 123|
+| Delete    | DELETE      | DELETE /users/123  | Delete user 123                  |
+
+**PUT vs PATCH:**
+- **PUT**: Complete replacement - send all fields, even unchanged ones
+- **PATCH**: Partial update - send only the fields you want to change
 
 ### Examples
 

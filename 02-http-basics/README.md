@@ -173,11 +173,15 @@ Body:
 - **HTTP**: Data is sent in plain text (not secure)
 - **HTTPS**: Data is encrypted (secure)
   - The 'S' stands for "Secure"
-  - Always use HTTPS for sensitive data!
+  - **Always use HTTPS for ALL API communications!**
+  - This prevents eavesdropping, tampering, and man-in-the-middle attacks
+  - Modern applications should never use plain HTTP for APIs
 
 Think of it like:
 - HTTP = Sending a postcard (anyone can read it)
 - HTTPS = Sending a locked box (only the recipient can open it)
+
+**Security Note**: Even for non-sensitive data, HTTPS protects against various attacks including session hijacking, content injection, and data manipulation.
 
 ## URL Parameters
 
