@@ -14,30 +14,50 @@ This tutorial is designed for students ages 16-20 who want to learn about APIs. 
 - How to make API requests
 - Authentication methods for APIs
 - Working with JSON data
+- Building real-world applications with APIs
 
-## 🗂️ Course Structure
+## 🗂️ Repository Structure
 
-Each folder represents a different topic about APIs. Inside each folder, you'll find:
-- **README.md**: A tutorial explaining the concept
-- **Three practice problems**: Ranging from easy to hard difficulty
+This repository is organized into two main sections:
 
-Work through the folders in order for the best learning experience!
+### 📖 [Modules](./modules/)
+Structured learning content that teaches API concepts step-by-step. Each module includes:
+- **Tutorial**: Comprehensive explanations with examples
+- **Practice Problems**: Three problems (easy, medium, hard)
+- **Solutions**: Detailed answer keys
 
-### Modules
+**Available Modules:**
+1. **[What Are APIs?](./modules/01-what-are-apis/)** - Introduction to APIs
+2. **[HTTP Basics](./modules/02-http-basics/)** - Understanding HTTP Protocol
+3. **[REST APIs](./modules/03-rest-apis/)** - REST API Principles
+4. **[Making API Requests](./modules/04-making-api-requests/)** - Making API Calls
+5. **[API Authentication](./modules/05-api-authentication/)** - API Authentication
+6. **[Working with JSON](./modules/06-working-with-json/)** - Working with JSON Data
 
-1. **[01-what-are-apis](./01-what-are-apis/)** - Introduction to APIs
-2. **[02-http-basics](./02-http-basics/)** - Understanding HTTP Protocol
-3. **[03-rest-apis](./03-rest-apis/)** - REST API Principles
-4. **[04-making-api-requests](./04-making-api-requests/)** - Making API Calls
-5. **[05-api-authentication](./05-api-authentication/)** - API Authentication
-6. **[06-working-with-json](./06-working-with-json/)** - Working with JSON Data
+### 🚀 [Projects](./projects/)
+Hands-on projects that combine multiple concepts to build real applications. Each project includes:
+- **Comprehensive README**: Step-by-step guidance
+- **Implementation examples**: Code samples in multiple languages
+- **Bonus challenges**: Extensions to deepen your learning
+
+**Available Projects:**
+1. **[Weather Dashboard](./projects/01-weather-dashboard/)** (Beginner) - Display weather data for any city
+2. **[GitHub Profile Viewer](./projects/02-github-profile-viewer/)** (Beginner-Intermediate) - View GitHub profiles and repos
+3. **[Recipe Finder App](./projects/03-recipe-finder/)** (Intermediate) - Search recipes with filters and favorites
 
 ## 🚀 Getting Started
 
-1. Start with folder `01-what-are-apis`
-2. Read the README tutorial in each folder
-3. Complete the practice problems
-4. Move on to the next folder!
+### For Complete Beginners:
+1. Start with **[Module 1: What Are APIs?](./modules/01-what-are-apis/)**
+2. Work through each module in order
+3. Complete the practice problems in each module
+4. After finishing all modules, move to **[Project 1: Weather Dashboard](./projects/01-weather-dashboard/)**
+5. Progress through the projects in order
+
+### For Those with Some API Knowledge:
+1. Review the modules you need as reference
+2. Jump straight to the [projects](./projects/)
+3. Start with the project that matches your skill level
 
 ## 💡 Prerequisites
 
