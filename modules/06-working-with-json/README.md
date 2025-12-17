@@ -722,6 +722,15 @@ See the problem files for complete solutions and examples!
 
 ---
 
-**Congratulations on completing the Intro to APIs course! 🎓**
+**Congratulations on completing all the modules! 🎓**
 
-You're now ready to build amazing applications that leverage the power of APIs!
+You now have a solid foundation in APIs. Ready to put your knowledge into practice?
+
+**Next Steps:**
+- Check out the [Projects](../../projects/) folder for hands-on projects
+- Start with [Project 1: Weather Dashboard](../../projects/01-weather-dashboard/)
+- Build real applications that use APIs!
+
+---
+
+[← Back to Modules](../README.md) | [Projects →](../../projects/)
